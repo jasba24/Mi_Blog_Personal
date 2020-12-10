@@ -105,3 +105,10 @@ main .main-button button {
 button:hover {
   color: white;
 }
+nav .profile-link a:hover {
+  color: #48cfad;
+  font-weight: bold;
+}
+header .icons span:hover {
+  color: black;
+}
