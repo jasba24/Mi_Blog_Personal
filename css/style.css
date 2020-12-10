@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Roboto, italica";
+  src: url(Roboto_Mono/RobotoMono-Medium.ttf);
+}
 body {
   margin: 0;
   padding: 0;
@@ -59,4 +63,26 @@ nav .profile-link {
 nav .profile-link a {
   color: black;
   border-bottom: 1px solid black;
+}
+main {
+  width: 100%;
+  height: 1fr;
+  margin: 0
+}
+
+main .main-image img{
+  position: relative;
+  width: 100%;
+  height: 78vh;
+  object-fit: cover;
+}
+main .main-image p {
+  position: absolute;
+  color: white;
+  z-index: 2;
+  font-family: "Roboto, italica";
+  padding-top: 45px;
+  text-align: center;
+  width: 100%;
+  font-size: 30px;
 }
