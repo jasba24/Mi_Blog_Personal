@@ -1,6 +1,7 @@
 @font-face {
-  font-family: "Roboto, italica";
+  font-family: "Roboto mono";
   src: url(Roboto_Mono/RobotoMono-Medium.ttf);
+
 }
 body {
   margin: 0;
@@ -35,7 +36,7 @@ header .header-icons-container .icons {
   display: flex;
   justify-items: flex-end;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   justify-self: end;
   margin-right: 50px;
 }
@@ -74,15 +75,33 @@ main .main-image img{
   position: relative;
   width: 100%;
   height: 78vh;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 main .main-image p {
   position: absolute;
   color: white;
   z-index: 2;
-  font-family: "Roboto, italica";
-  padding-top: 45px;
+  font-family: "Roboto mono";
+  padding-top: 180px;
   text-align: center;
   width: 100%;
-  font-size: 30px;
+  font-size: 20px;
+}
+main .main-button {
+  width: 100%;
+  position: absolute;
+  margin-top: 300px;
+  text-align: center;
+  z-index: 2;
+}
+main .main-button button {
+  padding: 10px;
+  background-color: #48cfad;
+  border: 0;
+  font-family: "Roboto mono";
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  color: white;
 }
