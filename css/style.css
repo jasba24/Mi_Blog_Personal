@@ -251,3 +251,30 @@ header .icons span:hover {
   font-weight: bold;
   text-align: justify;
 }
+.contact {
+  background-color: #e6e9ed;
+}
+.contact-container {
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr 3fr;
+  align-items: center;
+}
+.contact-img {
+  margin-right: 10px;
+}
+.contact-img img {
+  width: 100%;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 0;
+}
+.contact-details a{
+  border-bottom: 1px solid black;
+  align-self: flex-start;
+}
+.contact-details p {
+  font-size: 12px;
+  margin-top: 0;
+}
