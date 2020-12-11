@@ -62,6 +62,13 @@ nav .profile-link a {
   color: black;
   border-bottom: 1px solid black;
 }
+nav .profile-link a:hover {
+  color: #48cfad;
+  font-weight: bold;
+}
+header .icons span:hover {
+  color: black;
+}
 .home-main {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
@@ -100,10 +107,98 @@ nav .profile-link a {
 .home-main-button a:hover {
   color: white;
 }
-nav .profile-link a:hover {
-  color: #48cfad;
-  font-weight: bold;
+
+.blogs-body {
+  position: initial;
 }
-header .icons span:hover {
-  color: black;
+.blogs-main {
+  background-color: #e6e9ed;
+}
+.blogs-main section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.blogs-main .blogs-main-img {
+  margin: 0 20px 20px;
+}
+.blogs-main .blogs-main-img img{
+  width: 100%;
+  height: 300px;
+}
+.blogs-main .blogs-main-title {
+  margin: 5px 20px;
+}
+.blogs-main .blogs-main-details {
+  font-size: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.blogs-main section div h1 {
+  margin-bottom: 0;
+}
+.blogs-main div .blogs-main-button {
+  border: 1px solid #48cfad;
+  height: 30px;
+  width: 80px;
+  background-color: #e6e9ed;
+  font-size: 12px;
+}
+.blogs-content-title {
+  width: 94%;
+  text-align: center;
+  border-bottom: 1px solid #f3f4f6;
+  padding: 18.72px 0;
+  margin: 0 auto;
+}
+.blogs-content-title h3 {
+  margin: 0;
+}
+.blogs-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.blogs-content-container {
+  height: 40%;
+  margin: 20px;
+}
+.blogs-content-container img {
+  width: 100%;
+}
+.blogs-content-button {
+  border: 1px solid #48cfad;
+  height: 30px;
+  width: 70px;
+  background-color: white;
+  font-size: 10px;
+}
+.blogs-content-container h3 {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.blogs-content-details {
+  font-size: 9px;
+  font-weight: normal;  
+  margin-top: 5px;
+}
+.blogs-footer {
+  height: 50px;
+}
+.blogs-footer-section {
+  width: 100%;
+  height: 20px;
+  background-color: #48cfad;
+}
+.blogs-footer-container {
+  width: 100%;
+  height: 40px;
+  background-color: #23282d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blogs-footer-details {
+  color: white;
+  font-size: 8px;
 }
