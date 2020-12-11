@@ -37,6 +37,10 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
+  .blogs-content {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
   .blogs-main-details-container {
     margin-left: 20px;
     margin-right: 20px;
