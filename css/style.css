@@ -75,7 +75,7 @@ header .icons span:hover {
 .home-main {
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
-  height: 77.6vh;
+  height: 78vh;
   background-image: url("../assets/img/Cover.png");
   background-position: center;
   background-repeat: no-repeat;
